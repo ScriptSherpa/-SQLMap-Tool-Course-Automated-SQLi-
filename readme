@@ -1,0 +1,50 @@
+# 🔐 Cybersecurity Mini Projects
+
+This repository contains a set of four hands-on mini projects demonstrating common web application vulnerabilities and exploits in cybersecurity. Each project showcases different types of attacks used in ethical hacking and web penetration testing.
+
+---
+
+## 🧪 Mini Projects Overview
+
+### 1️⃣ Stored Cross-Site Scripting (XSS)
+- **Description**: Demonstrates a stored XSS vulnerability by injecting a malicious comment on a blog that triggers an alert when viewed.
+- **Objective**: Understand how persistent XSS works and how it can affect website users.
+
+### 2️⃣ SQL Injection Attack
+- **Description**: Simulates an SQL injection vulnerability in a product search or login page to leak all product information.
+- **Objective**: Learn how attackers exploit input fields to manipulate SQL queries.
+
+### 3️⃣ Access Control Vulnerability
+- **Description**: Explores a misconfigured admin panel accessible via a hidden URL, found by analyzing the app structure.
+- **Tool**: Uses [PortSwigger Labs](https://portswigger.net).
+- **Objective**: Identify flaws in access control and improper URL protections.
+
+### 4️⃣ HTTP vs HTTPS Demonstration
+- **Description**: Develops an insecure HTTP website and demonstrates how attackers can tamper with it. Then implements HTTPS with SSL to secure it.
+- **Objective**: Highlight the importance of encryption in web traffic and payments.
+
+---
+
+## 🛠️ Tools & Technologies
+- **Languages**: HTML, PHP, JavaScript, SQL
+- **Tools**: Kali Linux, SQLMap, Burp Suite, PortSwigger Labs
+- **Web Server**: Apache (XAMPP/LAMP)
+- **Browser**: Firefox/Chromium (with dev tools)
+
+---
+
+## 📚 Learning Outcomes
+- Understand how web vulnerabilities are exploited.
+- Perform real-world attacks in a controlled ethical environment.
+- Learn to use penetration testing tools like SQLMap and Burp Suite.
+- Gain insights into securing web applications.
+
+---
+
+## ⚠️ Disclaimer
+This project is for educational purposes only. Do not use these techniques on live systems without authorization.
+
+---
+
+## 📄 License
+MIT License
